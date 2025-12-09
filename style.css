@@ -1,0 +1,111 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+/* Navigation Bar */
+nav {
+  background: #030000;
+  color: #d30909;
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav .nav-links li a {
+  color: #d61010;
+  text-decoration: none;
+}
+
+/* Home Section */
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 30px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Skills Section */
+.skills {
+  padding: 30px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  background: #a874a1;
+  border: 2px solid #333;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Contact Form */
+.contact {
+  padding: 30px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: azure;
+}
+
+form button {
+  background: #333;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.home ul {
+  list-style: square;
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.home p {
+  max-width: 700px;
+  margin: 15px auto;
+  line-height: 1.6;
+  text-align: left;
+}
